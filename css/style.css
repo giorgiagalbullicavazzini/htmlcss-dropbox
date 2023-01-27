@@ -32,5 +32,80 @@ footer {
 }
 
 /* 
+Typo
+*/
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+/* 
 Container
 */
+
+.container-full {
+  width: 100vw;
+}
+
+.container-big {
+  width: 70vw;
+}
+
+.container-small {
+  width: 60vw;
+}
+
+/* 
+Common
+*/
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 15px;
+  font-family: inherit;
+}
+
+.button-primary {
+  background-color: #0061ff;
+  color: white;
+}
+
+.button-secondary {
+  background-color: #ffffff;
+}
+
+/*
+Header
+*/
+
+.inline-list {
+  display: flex;
+}
