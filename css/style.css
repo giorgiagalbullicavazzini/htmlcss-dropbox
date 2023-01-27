@@ -12,21 +12,20 @@ Reset
 Debug
 */
 
-header {
-  padding: 50px;
+.debug header {
   background-color: lightcoral;
 }
 
-main {
+.debug main {
   padding: 50px;
   background-color: lightsalmon;
 }
 
-main *:not(:last-child) {
+.debug main *:not(:last-child) {
   margin-bottom: 50px;
 }
 
-footer {
+.debug footer {
   padding: 50px;
   background-color: lightseagreen;
 }
@@ -64,6 +63,12 @@ h4 {
 Container
 */
 
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container-full {
   width: 100vw;
 }
@@ -80,13 +85,23 @@ Container
 Common
 */
 
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
 }
 
+.logo,
 li {
-  margin-bottom: 15px;
+  margin: 20px;
 }
+
+/* 
+Buttons
+*/
 
 .button {
   padding: 15px;
@@ -102,10 +117,10 @@ li {
   background-color: #ffffff;
 }
 
-/*
+/* 
 Header
 */
 
-.inline-list {
-  display: flex;
+.logo {
+  display: block;
 }
