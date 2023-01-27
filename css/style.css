@@ -85,7 +85,7 @@ Container
 }
 
 .container-small {
-  width: 50vw;
+  width: 45vw;
 }
 
 .container-big,
@@ -188,4 +188,20 @@ main img {
 .jumbotron i {
   margin-top: 20px;
   font-size: 45px;
+}
+
+.column {
+  width: calc(100% / 3 - 30px);
+  height: 300px;
+  margin: 15px;
+  background-color: lightgreen;
+}
+
+.margin-reset {
+  margin: 0 -15px;
+}
+
+.horizontal {
+  height: 300px;
+  background-color: lightgreen;
 }
