@@ -36,11 +36,11 @@ Typo
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  line-height: 1.7;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: 900;
 }
 
 h2 {
@@ -55,8 +55,16 @@ h4 {
   font-size: 20px;
 }
 
-.small-text {
-  font-size: 14px;
+.jumbotron {
+  font-size: 15px;
+}
+
+/* 
+Background
+*/
+
+.jumbotron {
+  background-color: #b4d0e7;
 }
 
 /* 
@@ -73,11 +81,11 @@ Container
 }
 
 .container-big {
-  width: 65vw;
+  width: 55vw;
 }
 
 .container-small {
-  width: 55vw;
+  width: 50vw;
 }
 
 .container-big,
@@ -85,12 +93,20 @@ Container
   margin: auto;
 }
 
+.small-box {
+  width: 30%;
+}
+
+.large-box {
+  width: 70%;
+}
+
 /* 
 Margin
 */
 
-.logo,
 nav button,
+.logo,
 li {
   margin: 20px;
 }
@@ -113,10 +129,17 @@ Buttons
 */
 
 .button {
-  padding: 5px 15px;
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
+}
+
+.button-small {
+  padding: 5px 15px;
+}
+
+.button-large {
+  padding: 10px 15px;
 }
 
 .button-primary {
@@ -145,12 +168,24 @@ nav {
 Main
 */
 
-.info {
-  width: 35%;
-  margin-right: 30px;
+main section {
+  padding-top: 70px;
 }
 
-.box {
-  flex-grow: 1;
-  background-color: lightgray;
+main img {
+  width: 100%;
+}
+
+.jumbotron-content {
+  position: relative;
+  top: 60px;
+}
+
+.jumbotron .small-box > * {
+  margin-bottom: 30px;
+}
+
+.jumbotron i {
+  margin-top: 20px;
+  font-size: 45px;
 }
