@@ -7,3 +7,30 @@ Reset
   margin: 0;
   padding: 0;
 }
+
+/* 
+Debug
+*/
+
+header {
+  padding: 50px;
+  background-color: lightcoral;
+}
+
+main {
+  padding: 50px;
+  background-color: lightsalmon;
+}
+
+main *:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+footer {
+  padding: 50px;
+  background-color: lightseagreen;
+}
+
+/* 
+Container
+*/
