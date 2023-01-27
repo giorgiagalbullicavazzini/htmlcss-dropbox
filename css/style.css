@@ -55,7 +55,7 @@ h4 {
   font-size: 20px;
 }
 
-.small {
+.small-text {
   font-size: 14px;
 }
 
@@ -70,7 +70,7 @@ Container
 }
 
 .container-full {
-  width: 100vw;
+  width: 100%;
 }
 
 .container-big {
@@ -79,6 +79,19 @@ Container
 
 .container-small {
   width: 60vw;
+}
+
+/* 
+Margin
+*/
+
+.logo,
+li {
+  margin: 20px;
+}
+
+nav button {
+  margin-right: 20px;
 }
 
 /* 
@@ -94,21 +107,19 @@ ul {
   list-style-type: none;
 }
 
-.logo,
-li {
-  margin: 20px;
-}
-
 /* 
 Buttons
 */
 
 .button {
-  padding: 15px;
+  padding: 5px 15px;
+  cursor: pointer;
   font-family: inherit;
+  font-size: inherit;
 }
 
 .button-primary {
+  border: none;
   background-color: #0061ff;
   color: white;
 }
