@@ -10,16 +10,19 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="">
+<body>
   <!-- Header -->
   <header class="container-full container-flex">
     <!-- Nav info Dropbox -->
@@ -28,9 +31,15 @@
         <img class="logo" src="img/logo-small.png" alt="Logo di Dropbox">
       </a>
       <ul class="container-flex">
-        <a href="#"><li>Perché Dropbox</li></a>
-        <a href="#"><li>Funzioni</li></a>
-        <a href="#"><li>Piani e Prezzi</li></a>
+        <a href="#">
+          <li>Perché Dropbox</li>
+        </a>
+        <a href="#">
+          <li>Funzioni</li>
+        </a>
+        <a href="#">
+          <li>Piani e Prezzi</li>
+        </a>
       </ul>
     </nav>
     <!-- // Nav info Dropbox -->
@@ -38,11 +47,17 @@
     <!-- Nav funzionalità utente -->
     <nav class="container-flex">
       <ul class="container-flex">
-        <a href="#"><li>Supporto</li></a>
-        <a href="#"><li>Contatta l'ufficio vendite</li></a>
-        <a href="#"><li>Accedi</li></a>
+        <a href="#">
+          <li>Supporto</li>
+        </a>
+        <a href="#">
+          <li>Contatta l'ufficio vendite</li>
+        </a>
+        <a href="#">
+          <li>Accedi</li>
+        </a>
       </ul>
-      <button class="button button-primary button-small">Inizia</button>
+      <button class="button button-primary small">Inizia</button>
     </nav>
     <!-- // Nav funzionalità utente -->
   </header>
@@ -57,15 +72,17 @@
         <div class="container-flex jumbotron-content">
           <!-- Info Dropbox -->
           <div class="small-box">
-            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-            <button class="button button-primary button-large">Inizia la tua prova gratuita</button>
+            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox
+              Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare
+              il flusso di lavoro esistente.</p>
+            <button class="button button-primary large">Inizia la tua prova gratuita</button>
             <div>Annulla in qualsiasi momento</div>
             <div>
               <i class="fa-solid fa-arrow-down"></i>
             </div>
           </div>
           <!-- // Info Dropbox -->
-  
+
           <!-- Immagine jumbotron -->
           <div class="large-box">
             <img src="img/jumbo.png" alt="Immagine promozionale - Proposta per il cliente">
@@ -76,25 +93,122 @@
     </section>
     <!-- // Jumbotron -->
 
-    <!-- Piani -->
+    <!-- Piani business -->
     <section class="container-small">
       <h2>Trova il piano business che fa per te</h2>
       <div>
-        <input type="radio" id="mensile" name="fatturazione" value="mensile"
-        checked>
+        <input type="radio" id="mensile" name="fatturazione" value="mensile" checked>
         <label for="mensile">Fatturazione mensile</label>
-        <input type="radio" id="annuale" name="fatturazione" value="annuale"
-        checked>
+        <input type="radio" id="annuale" name="fatturazione" value="annuale" checked>
         <label for="annuale">Fatturazione annuale</label>
       </div>
       <div class="container-flex margin-reset">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
+        <!-- Piano professional -->
+        <div class="column">
+          <div class="target large center">
+            <i class="fa-solid fa-user"></i> Singolo
+          </div>
+          <div class="plan">
+            <h3>Professional</h3>
+            <div>
+              <strong>€ 12.00</strong>
+            </div>
+            <div>/mese</div>
+            <ul>
+              <li><i class="fa-solid fa-user"></i> 1 utente</li>
+              <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+              <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+            </ul>
+            <div class="center">
+              <button class="button button-primary large">Prova gratis per 30 giorni</button>
+            </div>
+            <div>oppure <a href="#">acquista ora</a></div>
+            <hr>
+            <div>
+              <strong>Punti Salienti del piano</strong>
+            </div>
+            <ul>
+              <li><span class="icon checklist"> Invia file fino a 100 GB con Dropbox Transfert</span></li>
+              <li><span class="icon checklist"> Invia file fino a 100 GB con Dropbox Transfert</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- // Piano professional -->
+
+        <!-- Piano advanced -->
+        <div class="column">
+          <div class="target large center">
+            <i class="fa-solid fa-users"></i> Team
+          </div>
+          <div class="plan">
+            <h3>Advanced</h3>
+            <div>
+              <strong>€ 18.00</strong>
+            </div>
+            <div>/utente/mese</div>
+            <ul>
+              <li><i class="fa-solid fa-users"></i> 3 o più utenti</li>
+              <li><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
+              <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+            </ul>
+            <div class="center">
+              <button class="button button-primary large">Prova gratis per 30 giorni</button>
+            </div>
+            <div>oppure <a href="#">acquista ora</a></div>
+            <hr>
+            <div>
+              <strong>Punti Salienti del piano</strong>
+            </div>
+            <ul>
+              <li><span class="icon checklist"> Nessun limite di spazio per i file</span></li>
+              <li><span class="icon checklist"> Cartelle offline su dispositivi mobili</span></li>
+              <li><span class="icon checklist"> Risparmio del 50% rispetto alle iscrizioni singole</span></li>
+              <li><span class="icon checklist"> Possibilità di inserire nuovi membri del team</span></li>
+              <li><span class="icon checklist"> Gestione dei permessi in base ai ruoli</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- // Piano advanced -->
+
+        <!-- Piano enterprise azienda -->
+        <div class="column">
+          <div class="target large center">
+            <i class="fa-solid fa-building"></i> Azienda
+          </div>
+          <div class="plan">
+            <h3>Enterprise</h3>
+            <div>
+              <strong>Contattaci</strong>
+            </div>
+            <div>-</div>
+            <ul>
+              <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
+              <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
+              <li><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+            </ul>
+            <div class="center">
+              <button class="button button-primary large">Contattaci</button>
+            </div>
+            <div>oppure <a href="#">acquista ora</a></div>
+            <hr>
+            <div>
+              <strong>Punti Salienti del piano</strong>
+            </div>
+            <ul>
+              <li><span class="icon checklist"> Cartelle offline su dispositivi mobili</span></li>
+              <li><span class="icon checklist"> Servizio assistenza 24/h</span></li>
+              <li><span class="icon checklist"> Possibilità di personalizzazione totale</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- // Piano enterprise azienda -->
       </div>
+
+      <!-- Piano enterprise team -->
       <div class="horizontal"></div>
+      <!-- // Piano enterprise team -->
     </section>
-    <!-- // Piani -->
+    <!-- // Piani business -->
 
     <!-- Contattaci -->
     <section>Container small, due colonne</section>
