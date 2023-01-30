@@ -61,7 +61,8 @@ h4 {
 Background
 */
 
-#jumbotron {
+#jumbotron,
+#try-for-free {
   background-color: #b4d0e7;
 }
 
@@ -92,11 +93,11 @@ Container
 }
 
 .box-small {
-  width: 35%;
+  width: 30%;
 }
 
 .box-large {
-  width: 65%;
+  width: 70%;
 }
 
 .column {
@@ -424,4 +425,21 @@ Loghi partner destra
 
 #partner #clear-channel {
   background-image: url(../img/clear_channel.svg);
+}
+
+/* 
+Prova
+*/
+
+#try-for-free {
+  padding-bottom: 130px;
+}
+
+#try-for-free h2 {
+  color: #61082b;
+}
+
+#try-for-free .button {
+  border: none;
+  width: 100%;
 }
