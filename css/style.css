@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h3 {
@@ -114,6 +114,14 @@ nav li,
   margin: 20px;
 }
 
+#plans .inputs {
+  margin: 50px 0;
+}
+
+#plans .inputs > * {
+  padding-right: 35px;
+}
+
 #plans ul {
   margin-left: 15px;
 }
@@ -138,7 +146,7 @@ nav li,
 }
 
 main section {
-  padding-top: 70px;
+  padding-top: 130px;
 }
 
 .plan {
@@ -164,6 +172,12 @@ ul a {
 
 ul {
   list-style-type: none;
+}
+
+hr {
+  width: 20%;
+  border: none;
+  border-top: 1px solid #d2d2d5;
 }
 
 /* 
@@ -232,8 +246,12 @@ Piani business
   border-bottom: 1px solid #d2d2d5;
 }
 
-.plan .price .gray {
+#plans .price .gray {
   color: #666666;
+}
+
+#plans .button {
+  width: 100%;
 }
 
 /* 
