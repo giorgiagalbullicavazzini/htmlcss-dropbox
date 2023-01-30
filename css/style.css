@@ -345,7 +345,7 @@ Partner
 }
 
 /* 
-Loghi partner
+Loghi partner sinistra
 */
 
 #partner .designit {
@@ -378,4 +378,40 @@ Loghi partner
 
 #partner #topps {
   background-image: url(../img/topps.svg);
+}
+
+/* 
+Loghi partner destra
+*/
+
+#partner .world-bicycle {
+  background-color: #d5001f;
+}
+
+#partner #world-bicycle {
+  background-image: url(../img/world_bicycle_relief.svg);
+}
+
+#partner .hearst {
+  background-color: #b4d0e7;
+}
+
+#partner #hearst {
+  background-image: url(../img/hearst_corp.svg);
+}
+
+#partner .lonely-planet {
+  background-color: #0d2481;
+}
+
+#partner #lonely-planet {
+  background-image: url(../img/lonely_planet.svg);
+}
+
+#partner .clear-channel {
+  background-color: #ffd830;
+}
+
+#partner #clear-channel {
+  background-image: url(../img/clear_channel.svg);
 }
