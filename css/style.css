@@ -329,15 +329,53 @@ Partner
 #partner .partner-left,
 #partner .partner-right {
   flex-wrap: wrap;
-  background-color: lightcoral;
-}
-
-#partner .partner-content {
-  background-color: lightgreen;
 }
 
 #partner .partner-box {
   aspect-ratio: 1;
   width: 50%;
-  border: 1px solid black;
+}
+
+#partner .partner-logo {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  filter: brightness(0) invert(1);
+}
+
+/* 
+Loghi partner
+*/
+
+#partner .designit {
+  background-color: #a2d39b;
+}
+
+#partner #designit {
+  background-image: url(../img/designit.svg);
+}
+
+#partner .arizona-uni {
+  background-color: #61082b;
+}
+
+#partner #arizona-uni {
+  background-image: url(../img/arizona_state_university.svg);
+}
+
+#partner .uni-florida {
+  background-color: #0093ce;
+}
+
+#partner #uni-florida {
+  background-image: url(../img/university_of_florida.svg);
+}
+
+#partner .topps {
+  background-color: #ff1c1c;
+}
+
+#partner #topps {
+  background-image: url(../img/topps.svg);
 }
