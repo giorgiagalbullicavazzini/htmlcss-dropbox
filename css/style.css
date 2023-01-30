@@ -53,6 +53,10 @@ h4 {
   font-size: 15px;
 }
 
+#plans {
+  font-size: 14px;
+}
+
 /* 
 Background
 */
@@ -111,15 +115,34 @@ nav li,
 }
 
 #plans ul {
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
-.plan {
-  padding: 25px;
+#plans ul,
+#plans button,
+#plans .features {
+  margin-top: 40px;
+}
+
+#plans .price,
+#plans ul > * {
+  margin-top: 15px;
+}
+
+#plans .price .gray {
+  margin-top: 10px;
+}
+
+#plans .buy {
+  margin: 30px 0;
 }
 
 main section {
   padding-top: 70px;
+}
+
+.plan {
+  padding: 25px;
 }
 
 .small {
@@ -208,6 +231,14 @@ Piani business
 .target {
   border-bottom: 1px solid #d2d2d5;
 }
+
+.plan .price .gray {
+  color: #666666;
+}
+
+/* 
+Piani business - Liste
+*/
 
 .fa-li::before {
   font-family: "Font Awesome 5 Free";
