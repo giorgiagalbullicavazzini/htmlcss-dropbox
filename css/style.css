@@ -443,3 +443,12 @@ Prova
   border: none;
   width: 100%;
 }
+
+/* 
+FAQ
+*/
+
+#faq hr {
+  color: #000000;
+  width: 100%;
+}
