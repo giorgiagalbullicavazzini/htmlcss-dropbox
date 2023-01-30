@@ -317,3 +317,24 @@ Business
 #business .flex {
   flex-wrap: wrap;
 }
+
+/* 
+Partner
+*/
+
+#partner > * {
+  width: calc(100% / 3);
+  height: 300px;
+}
+
+#partner .partner-left {
+  background-color: lightcoral;
+}
+
+#partner .partner-content {
+  background-color: lightgreen;
+}
+
+#partner .partner-right {
+  background-color: lightgray;
+}
