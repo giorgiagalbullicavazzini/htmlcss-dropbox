@@ -92,11 +92,11 @@ Container
 }
 
 .box-small {
-  width: 30%;
+  width: 35%;
 }
 
 .box-large {
-  width: 70%;
+  width: 65%;
 }
 
 .column {
@@ -202,6 +202,7 @@ Buttons
 
 .button-secondary {
   background-color: #ffffff;
+  border: 1px solid black;
 }
 
 /* 
@@ -299,4 +300,12 @@ Piani business - Liste
 
 .fa-li.users::before {
   content: "\f0c0";
+}
+
+/* 
+Contattaci
+*/
+
+#contact-us .box-small {
+  padding: 50px 0 0 50px;
 }
