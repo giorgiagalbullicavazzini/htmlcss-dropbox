@@ -485,8 +485,13 @@ FAQ
   margin-bottom: 60px;
 }
 
-#faq strong {
+#faq .flex {
   margin: 40px 0;
+}
+
+#faq span {
+  width: 5%;
+  font-size: 12px;
 }
 
 #faq hr {
