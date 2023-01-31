@@ -9,7 +9,46 @@ Reset
 }
 
 /* 
-CSS Icons
+Container
+*/
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-full {
+  max-width: 1920px;
+}
+
+.page-big {
+  max-width: 1180px;
+}
+
+.page-small {
+  max-width: 1000px;
+}
+
+.page-full,
+.page-big,
+.page-small {
+  margin: auto;
+}
+
+.box-30 {
+  width: 30%;
+}
+
+.box-70 {
+  width: 70%;
+}
+
+.column {
+  width: calc(100% / 3 - 30px);                    /* Rimuovere */
+}
+
+/* 
+CSS Icons Font Awesome
 */
 
 .icon::before {
@@ -64,44 +103,6 @@ Background
 #jumbotron,
 #try-for-free {
   background-color: #b4d0e7;
-}
-
-/* 
-Container
-*/
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.page-full {
-  width: 100%;
-}
-
-.page-big {
-  width: 60vw;
-}
-
-.page-small {
-  width: 50vw;
-}
-
-.page-big,
-.page-small {
-  margin: auto;
-}
-
-.box-small {
-  width: 30%;
-}
-
-.box-large {
-  width: 70%;
-}
-
-.column {
-  width: calc(100% / 3 - 30px);
 }
 
 /* 
@@ -253,7 +254,7 @@ Piani business
   border: 1px solid #d2d2d5;
 }
 
-#plans .horizontal .box-small {
+#plans .horizontal .box-30 {
   text-align: right;
 }
 
@@ -307,7 +308,7 @@ Piani business - Liste
 Contattaci
 */
 
-#contact-us .box-small {
+#contact-us .box-30 {
   padding: 50px 0 0 50px;
 }
 
