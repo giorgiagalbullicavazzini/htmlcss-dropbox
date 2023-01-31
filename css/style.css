@@ -244,6 +244,7 @@ Main
 */
 
 main section,
+main #partner,
 main .page-smaller {
   padding-top: 130px;
 }
