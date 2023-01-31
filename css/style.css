@@ -39,6 +39,14 @@ Container
   width: 30%;
 }
 
+.box-40 {
+  width: 40%;
+}
+
+.box-60 {
+  width: 60%;
+}
+
 .box-70 {
   width: 70%;
 }
@@ -313,8 +321,12 @@ Piani business - Liste
 Contattaci
 */
 
-#contact-us .box-30 {
-  padding: 50px 0 0 50px;
+#contact-us p {
+  margin: 15px 0 30px;
+}
+
+#contact-us .box-40 {
+  padding: 50px 50px 0;
 }
 
 /* 
