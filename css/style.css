@@ -497,8 +497,17 @@ FAQ
   margin-bottom: 60px;
 }
 
-#faq .flex {
+#faq .faq-container {
   margin: 40px 0;
+}
+
+#faq .faq-container p {
+  display: none;
+  margin-top: 20px;
+}
+
+#faq .faq-container:hover p {
+  display: block;
 }
 
 #faq span {
