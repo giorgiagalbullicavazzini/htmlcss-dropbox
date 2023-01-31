@@ -43,10 +43,6 @@ Container
   width: 70%;
 }
 
-.column {
-  width: calc(100% / 3 - 30px);                    /* Rimuovere */
-}
-
 /* 
 Background
 */
@@ -150,54 +146,6 @@ CSS Icons Font Awesome
 }
 
 /* 
-Spaces
-*/
-
-#plans .inputs {
-  margin: 50px 0;
-}
-
-#plans .inputs > * {
-  padding-right: 35px;
-}
-
-#plans ul {
-  margin-left: 15px;
-}
-
-#plans ul,
-#plans button:not(:last-child),
-#plans .features {
-  margin-top: 40px;
-}
-
-#plans .price,
-#plans ul > * {
-  margin-top: 15px;
-}
-
-#plans .price .gray {
-  margin-top: 10px;
-}
-
-#plans .buy {
-  margin: 30px 0;
-}
-
-#plans .horizontal,
-#plans .horizontal .plan p {
-  margin-top: 50px;
-}
-
-main section {
-  padding-top: 130px;
-}
-
-.plan {
-  padding: 25px;
-}
-
-/* 
 Header
 */
 
@@ -254,11 +202,35 @@ Jumbotron
   cursor: pointer;
 }
 
+/*
+Main
+*/
+
+main section {
+  padding-top: 130px;
+}
+
 /* 
 Piani business
 */
 
-#plans .column,
+#plans .plan {
+  padding: 30px;
+}
+
+#plans .inputs {
+  margin: 50px 0;
+}
+
+#plans .inputs > * {
+  padding-right: 35px;
+}
+
+#plans .target {
+  border-bottom: 1px solid #d2d2d5;
+}
+
+#plans .vertical .box-30,
 #plans .horizontal {
   border: 1px solid #d2d2d5;
 }
@@ -267,20 +239,44 @@ Piani business
   text-align: right;
 }
 
-#plans .target {
-  border-bottom: 1px solid #d2d2d5;
+#plans ul {
+  margin-left: 13px;
+}
+
+#plans ul,
+#plans .vertical button,
+#plans .features {
+  margin-top: 40px;
+}
+
+#plans .price,
+#plans ul > * {
+  margin-top: 15px;
+}
+
+#plans .price .gray {
+  margin-top: 10px;
 }
 
 #plans .price .gray {
   color: #666666;
 }
 
-#plans .button {
+#plans .buy {
+  margin: 30px 0;
+}
+
+#plans .vertical .button {
   width: 100%;
 }
 
-#plans .button:last-child {
+#plans .horizontal .button {
   width: 80%;
+}
+
+#plans .horizontal,
+#plans .horizontal .plan p {
+  margin-top: 50px;
 }
 
 /* 
