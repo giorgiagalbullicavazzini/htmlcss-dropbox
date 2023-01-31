@@ -131,9 +131,17 @@ Buttons
   color: white;
 }
 
+.button-primary:hover {
+  background-color: #5a95f3;
+}
+
 .button-secondary {
   background-color: #ffffff;
-  border: 1px solid black;
+  border: 1px solid #000000;
+}
+
+.button-secondary:hover {
+  color: #6b6b6b;
 }
 
 .small {
