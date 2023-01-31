@@ -501,18 +501,31 @@ FAQ
   margin: 40px 0;
 }
 
+#faq .flex {
+  position: relative;
+}
+
+#faq .faq-container span {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 5%;
+  font-size: 12px;
+}
+
+#faq .faq-container:hover .fa-chevron-down,
+#faq .faq-container .fa-chevron-up,
 #faq .faq-container p {
   display: none;
+}
+
+#faq .faq-container p {
   margin-top: 20px;
 }
 
+#faq .faq-container:hover .fa-chevron-up,
 #faq .faq-container:hover p {
   display: block;
-}
-
-#faq span {
-  width: 5%;
-  font-size: 12px;
 }
 
 #faq hr {
