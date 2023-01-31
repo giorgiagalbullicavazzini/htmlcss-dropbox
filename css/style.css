@@ -184,6 +184,10 @@ header .header-right ul > *:not(:last-child) {
   margin: 0 20px;
 }
 
+header li:hover:not(.no-hover) {
+  border-bottom: 2px solid rgb(158, 158, 158);
+}
+
 header .header-right {
   margin-right: 20px;
 }
