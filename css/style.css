@@ -326,7 +326,7 @@ Contattaci
 }
 
 #contact-us .box-40 {
-  padding: 50px 50px 0;
+  padding: 50px;
 }
 
 /* 
@@ -366,22 +366,32 @@ Partner
   width: 50%;
 }
 
+#partner .partner-content hr {
+  margin: 40px 0;
+}
+
+#partner .partner-content p {
+  margin-bottom: 50px;
+}
+
 #partner .partner-left,
 #partner .partner-right {
   flex-wrap: wrap;
 }
 
 #partner .partner-box {
-  aspect-ratio: 1;
+  position: relative;
   width: 50%;
   height: 50%;
+  aspect-ratio: 1;
 }
 
-#partner .partner-logo {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: center;
+#partner .partner-box img {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   filter: invert(1);
 }
 
