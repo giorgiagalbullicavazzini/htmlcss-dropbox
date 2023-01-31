@@ -225,6 +225,10 @@ Jumbotron
   cursor: pointer;
 }
 
+#jumbotron .arrow-down a {
+  color: #000000;
+}
+
 /*
 Main
 */
