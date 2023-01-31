@@ -134,7 +134,7 @@ Buttons
 }
 
 .large {
-  padding: 10px 15px;
+  padding: 11px 16px;
 }
 
 /* 
@@ -230,25 +230,28 @@ header .header-right {
 }
 
 /* 
-Main
-*/
-
-/* 
 Jumbotron
 */
 
-.jumbotron-content {
-  position: relative;
-  top: 60px;
+#jumbotron {
+  padding-top: 160px;
 }
 
-#jumbotron .small-box > * {
+.jumbotron-content {
+  position: relative;
+  top: 75px;
+}
+
+#jumbotron .box-30 > * {
   margin-bottom: 30px;
 }
 
-#jumbotron i {
-  margin-top: 20px;
+#jumbotron .arrow-down {
+  position: absolute;
+  bottom: 85px;
+  left: 0;
   font-size: 45px;
+  cursor: pointer;
 }
 
 /* 
