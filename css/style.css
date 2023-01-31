@@ -364,10 +364,41 @@ Partner
 
 #partner > * {
   width: calc(100% / 3);
+  position: relative;
+}
+
+#partner > *::before {
+  display: block;
+  padding-top: 100%;
+  content: "";
+}
+
+#partner .partner-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-wrap: wrap;
+}
+
+#partner .partner-logo {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#partner .partner-logo img {
+  width: 50%;
+  filter: invert(1);
 }
 
 #partner .partner-content {
   background-color: #f5f5f5;
+}
+
+#partner .partner-content .partner-box {
   padding: 50px;
   overflow: auto;
 }
@@ -382,26 +413,6 @@ Partner
 
 #partner .partner-content p {
   margin-bottom: 50px;
-}
-
-#partner .partner-left,
-#partner .partner-right {
-  flex-wrap: wrap;
-}
-
-#partner .partner-box {
-  position: relative;
-  width: 50%;
-  aspect-ratio: 1/1;
-}
-
-#partner .partner-box img {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  filter: invert(1);
 }
 
 /* 
